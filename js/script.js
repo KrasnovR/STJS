@@ -33,7 +33,7 @@ $.getJSON('js/look.json', function(data){
   }
 
   function clean () {
-    test=``, test2=``; prodSum = 0, count = 0, docSum = 0, daySum = 0;
+    test =``, test2=``; prodSum = 0, count = 0, docSum = 0, daySum = 0;
   }
 
   for (var i = 0; i < data.rows.length; i++) {

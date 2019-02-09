@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button:focus {
+  outline: none;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.block {
+  width: 620px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+}
+
+.day__wrap {
+  height: 50px;
+  overflow-y: hidden;
+  padding: 15px 0 0 0;
+  -webkit-box-shadow: 0 0 1px 0.5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 1px 0.5px rgba(0, 0, 0, 0.2);
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  margin: 10px 0;
+}
+
+.day__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.day__info-date {
+  margin-left: 10px;
+  font-size: 19px;
+}
+
+.day__info-date_button {
+  position: relative;
+  width: 17px;
+  height: 15px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.day__info-date_button span {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 10px;
+  height: 2px;
+  left: 0;
+  border-radius: 10%;
+}
+
+.day__info-date_button span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.day__info-date_button span:nth-child(2) {
+  left: auto;
+  right: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.day__info-sum {
+  margin-right: 15px;
+}
+
+.day__act {
+  padding: 20px 35px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+  height: 82px;
+  overflow-y: hidden;
+}
+
+.day__act-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 46px;
+}
+
+.day__act-info_cod {
+  margin-bottom: 5px;
+}
+
+.day__act-info_sum {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.day__act-info_product {
+  margin-bottom: 5px;
+}
+
+.day__act-info_product-button {
+  position: relative;
+  width: 12px;
+  height: 13px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.day__act-info_product-button span {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 7px;
+  height: 2px;
+  left: 0;
+  border-radius: 10%;
+}
+
+.day__act-info_product-button span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.day__act-info_product-button span:nth-child(2) {
+  left: auto;
+  right: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.day__act_product {
+  padding-top: 15px;
+  padding-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.day__act_product-img {
+  width: 50px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.day__act_product-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-width: 50px;
+  max-height: 60px;
+}
+
+.day__act_product-info {
+  width: 100%;
+  height: 54px;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.day__act_product-info_title {
+  font-size: 1vw;
+}
+
+.day__act_product-info_quantity {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  font-size: 19px;
+}
+
+.day__act_product-info_sum {
+  font-size: 19px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.open-day {
+  height: 100%;
+}
+
+.open-prod {
+  height: 100%;
+}
+
+.left {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.right {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+/*# sourceMappingURL=style.css.map */
